@@ -1,0 +1,16 @@
+
+
+> mi_df <- data.frame(
++     "Nombre" = c("Ana", "Juana", "Carlos", "Luvas", "Pancho"),
++     "Sexo" = c("F", "F", "M", "M", "M"), 
++     "Edad" = c("25", "30", "35", "50", "45"),
++     "Puesto" = c("Cajera", "Vendedor", "Tecnico", "Jefe", "Abogado"),
++     "DNI" = c("22646497", "23584657", "57654658", "13245692", "24365876")
++ )
+> mi_df
+  Nombre Sexo Edad   Puesto      DNI
+1    Ana    F   25   Cajera 22646497
+2  Juana    F   30 Vendedor 23584657
+3 Carlos    M   35  Tecnico 57654658
+4  Luvas    M   50     Jefe 13245692
+5 Pancho    M   45  Abogado 24365876
